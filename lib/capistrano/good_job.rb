@@ -1,6 +1,5 @@
 module Capistrano
   class GoodJob < Capistrano::Plugin
-    include PumaCommon
 
     def set_defaults
       set_if_empty :good_job_role, "db"
